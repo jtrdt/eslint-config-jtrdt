@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+usage() {
+    echo "Usage of \"app\" command:
+    Deploy to npmjs registry.
+    "
+}
+
+deploy() {
+    npm publish "$@"
+}
+
+main() {
+    if [[ -z ${1} ]]; then
+        usage
+        exit 0
+    fi
+
+    if [[ ! ${1} =~ ^deploy$ ]]; then
+        usage
+        echo "${1} is not a supported command."
+        exit 1
+    fi
+
+    "$@"
+}
+
+main "$@"
