@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-kratere-test",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "kratere",
     "scripts": {
         "build": "babel src --out-dir bundle"
