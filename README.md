@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-jtrdt.svg)](https://npmjs.org/package/eslint-config-jtrdt)
 
 ```bash
-$ npm install -dev eslint-config-jtrdt
+$ npm install -D eslint-config-jtrdt
 ```
 ```bash
 $ yarn add -D eslint-config-jtrdt
